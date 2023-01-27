@@ -1,0 +1,171 @@
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900);
+html, body, html * {
+      font-family: 'Roboto', sans-serif;
+}
+:root {
+    --light-grey: #FAFAFA;
+    /* --light-grey: #571111; */
+    --red: #C8242F;
+
+    --black: #3E3E3E;
+    --white-smok: #0000000A;
+    --grey: #ADADAD;
+    --white: #FFFFFF;
+
+}
+*{
+    outline: none;
+}
+body {
+    width: 1560px;
+    height: 720px;
+
+    background: var(--light-grey) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.box1 img {
+    border-radius: 50%;
+    border: 20px solid #FFFFFF;
+}
+
+.box1 {
+    width: 576px;
+    height: 576px;
+    padding-left: 166px;
+    padding-top: 72px;
+    box-shadow: 0px 4px 31px #0000000A;
+    float: left;
+}
+
+.notes {
+    width: 500px;
+    height: 100px;
+    /* font: normal normal 300 40px/47px ;
+    letter-spacing: 0px;
+    color: #3E3E3E; */
+    font: normal normal ;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.notes span {
+    color: var(--red);
+    font: normal normal ;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0px;
+}
+
+.box2 {
+    float: right;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.cp-logo {
+    width: 272px;
+    height: 58px
+}
+
+.login-heading {
+     text-align: left;
+font-weight: normal;
+font-size: 25px;
+line-height: 33px;
+
+
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+
+.box2 input[type] {
+    width: 429px;
+    height: 49px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    opacity: 1;
+    padding-left: 14.5px;
+    font: normal normal normal 15px/20px  ;
+}
+
+.inp {
+    padding-bottom: 27px;
+}
+
+
+
+
+.login-forgot {
+    width: 429px;
+    height: 45px;
+}
+.login-btn button {
+    width: 138px;
+    height: 45px;
+    font: normal normal medium 18px/24px  ;
+    background:var(--red) 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    opacity: 1;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    float: left;
+    border: none;
+}
+
+.forget-btn {
+
+
+    opacity: 1;
+    float: right;
+    padding-top: 10px;
+
+
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.forget-btn a {
+    height: 45px;
+    text-align: center;
+    font: normal normal normal 15px/20px  ;
+    letter-spacing: 0px;
+    color: #ADADAD;
+    opacity: 1;
+
+}
+
+.register {
+    width: 429px;
+    height: 45px;
+    display: inline-block;
+    margin-top: 23.13px;
+
+}
+
+.register span {
+    /* text-align: left; */
+    font: normal normal normal 15px/20px  ;
+    letter-spacing: 0px;
+    color: var(--red);
+    opacity: 1;
+}
+
+.register p {
+    text-align: left;
+    font: normal normal normal 15px/20px  ;
+    letter-spacing: 0px;
+    color: #ADADAD;
+    opacity: 1;
+}

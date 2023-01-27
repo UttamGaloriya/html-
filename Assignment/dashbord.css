@@ -1,0 +1,141 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900);
+html, body, html * {
+      font-family: 'Roboto', sans-serif }
+body{
+    /* width: 1560px; */
+    outline: none;
+     background-color: #FAFAFA; 
+     box-sizing: border-box;
+}
+.top-navbar{
+    /* width: 1560px; */
+height: 80px;
+background: #FFFFFF;
+opacity: 1;
+display: flex;
+flex-direction:row ;
+justify-content: space-between;
+/* opacity: 1; */
+}
+.search input{
+border: none;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+font-size: 16px;
+line-height: 21px;
+background-image: url('/images/search-icon.svg');
+background-size: 16px;
+background-repeat: no-repeat;
+background-position: left;
+
+padding: 12px 20px 12px 40px;
+margin-left: 56.5px;
+
+}
+.cm-img img{
+    width: 142px;
+height: 30px;
+opacity: 1;
+}
+li{list-style: none;}
+.img-nav{
+    height: 15px;
+    width: 15px;
+    padding-right: 15px;
+
+
+}
+.menu{
+    width: 30px;
+height: 35px;
+margin-right: 25px;
+margin-left: 25px;
+}
+.bell-icon img
+    {
+        width: 22px;
+    height: 21px;
+    padding-right: 25px;
+    }
+.user-icon img{
+    width: 44px;
+height: 44px;
+margin-left: 52px;
+margin-right: 12px;
+}
+.user-name{
+    text-align: left;
+    font-size: 16px;
+    line-height:21px;
+    margin-right: 14.54px;
+}
+.down-arrow{
+    margin-right: 43.53px;
+}
+.left-side{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.right-side{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sidenav-bar{
+    display: flex;
+    width: 242px;
+height: 1279px;
+background: #FFFFFF;
+padding: 30px 25px 0px 29px;
+opacity: 1;
+}
+a{
+    text-decoration: none;
+    padding: 9.97px 60px 12.03px 0px;
+    opacity: 1;
+}
+li{width: 183px;
+    height: 43px;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+}
+/* background-color: aqua; */
+/* text-align: center;
+} */
+
+     li:hover{
+        background-color:#FFF3F4;
+        color: #C8242F;
+        border-radius: 5px;
+    } 
+    .sticky-bar{
+        width: 242;
+        background-color: #ffffff;
+    }
+
+
+    .info-bar{
+        display: flex;
+    }
+    .box{
+width: 219px;
+height: 116px;
+background: #000;
+margin-right: 30px;
+    }
+
+.sidenav-bar a{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    /* justify-content: space-between; */
+    color: #3E3E3E;
+}
+a:hover{
+    background: #FFF3F4;
+    color: #C8242F;
+}
+    
